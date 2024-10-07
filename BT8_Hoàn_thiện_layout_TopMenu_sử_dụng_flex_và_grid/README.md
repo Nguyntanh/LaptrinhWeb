@@ -1,6 +1,6 @@
 # Ảnh chụp màn hình kết quả
 
-![Hình ảnh kết quả](BT8_Hoàn_thiện_layout_TopMenu_sử_dụng_flex_và_grid\images\ketqua.png)
+![Hình ảnh kết quả](ketqua.png)
 
 # Thông tin sinh viên
 -Tên: Nguyễn Tuấn Anh
