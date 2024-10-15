@@ -11,7 +11,7 @@ body {
 #main{
     height: 10000px;
     width: 1000px;
-    background-color: #ccc;
+    /* background-color: #ccc; */
     margin: 0 auto;
     position: relative;
 }
@@ -64,7 +64,7 @@ p:hover, #nav-h li:hover a {
     right: 0;
     height: 400px;
     width: 930px;
-    background-color: #333;
+    /* background-color: #333; */
     top: 100px;
 }
 
@@ -125,7 +125,7 @@ p:hover, #nav-h li:hover a {
     right: 5px;
     height: 200px;
     width: 900px;
-    background-color: #333;
+    /* background-color: #333; */
     top: 510px;
 }
 
