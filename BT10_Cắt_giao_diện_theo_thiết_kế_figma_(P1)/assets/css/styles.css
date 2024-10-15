@@ -61,9 +61,9 @@ p:hover, #nav li:hover a {
 #content1 {
     position: absolute;
     right: 0;
-    height: 500px;
+    height: 400px;
     width: 960px;
-    background-color: #333;
+    /* background-color: #333; */
     top: 90px;
 }
 
@@ -71,20 +71,41 @@ p:hover, #nav li:hover a {
     position: absolute;
     height: 100px;
     width: 100px;
-    background-color: aqua;
+    background-color: rgb(162, 215, 215);
     z-index: 1;
-    left: 460px;
+    left: 450px;
     border-radius: 50px;
 }
 
 #content1 #subcontent1 {
     position: absolute;
-    height: 360px;
+    height: 320px;
     width: 400px;
-    background-color: #fff;
+    /* background-color: #fff; */
     z-index: 2;
-    top: 80px;
-    left: 50px;
+    top: 40px;
+    left: 30px;
+    color: #000;
+    padding: 50px 20px;
+}
+
+#content1 #subcontent1 div {
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+#content1 #subcontent1 button {
+    background-color: rgb(29, 85, 197);
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    width: 120px;
+}
+
+#subcontent1 button p {
+    font-size: 15px;
+    padding-left: 16px;
+    padding-top: 7px;
 }
 
 #content1 img {
@@ -93,52 +114,70 @@ p:hover, #nav li:hover a {
     right: 0;
     border-radius: 0 0 0 130px;
     z-index: 2;
+    width: 470px;
 }
 
 #content2 {
     position: absolute;
     right: 0;
-    height: 500px;
+    height: 200px;
     width: 960px;
     background-color: #333;
-    top: 610px;
-}
-
-#content2 #box2 {
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    background-color: aqua;
-    z-index: 1;
-    left: 460px;
-    border-radius: 50px;
+    top: 510px;
 }
 
 #content2 #subcontent2 {
     position: absolute;
-    height: 360px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
     background-color: #fff;
-    z-index: 2;
-    top: 80px;
-    left: 50px;
 }
 
-#content2 img {
+#content2 #nav {
     position: absolute;
-    top: 0;
-    right: 0;
-    border-radius: 0 0 0 130px;
-    z-index: 2;
+    display: inline-block;
+    justify-content: space-between;
+    width: 500px;
+    height: 90px;
+    /* padding-left: 280px; */
+    /* position: absolute; */
+}
+
+#content2 #nav li {
+    /* justify-content: space-between; */
+}
+
+#content2 #nav img {
+    display: inline-block;
+}
+
+#nav .picture1 img {
+    height: 30px;
+    width: 90px;
+}
+
+#nav .picture2 img {
+    height: 20px;
+    width: 100px;
+}
+
+#nav .picture3 img {
+    height: 16px;
+    width: 80px;
+}
+
+#nav .picture4 img {
+    height: 30px;
+    width: 100px;
 }
 
 #content3 {
     position: absolute;
     right: 0;
-    height: 500px;
+    height: 400px;
     width: 960px;
     background-color: #333;
-    top: 1130px;
+    top: 930px;
 }
 
 #content3 #box3 {
@@ -147,18 +186,18 @@ p:hover, #nav li:hover a {
     width: 100px;
     background-color: aqua;
     z-index: 1;
-    left: 460px;
+    left: 450px;
     border-radius: 50px;
 }
 
 #content3 #subcontent3 {
     position: absolute;
-    height: 360px;
+    height: 320px;
     width: 400px;
     background-color: #fff;
     z-index: 2;
-    top: 80px;
-    left: 50px;
+    top: 40px;
+    left: 30px;
 }
 
 #content3 img {
@@ -170,6 +209,6 @@ p:hover, #nav li:hover a {
 }
 
 img {
-    height: 450px;
-    width: 450px;
+    height: 350px;
+    /* width: 450px; */
 }
