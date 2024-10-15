@@ -5,13 +5,14 @@
 }
 
 body {
-    height: 10000px;
-    width: 1000px;
-    background-color: #ccc;
+
 }
 
 #main{
-    /* padding: 10px 0; */
+    height: 10000px;
+    width: 1000px;
+    background-color: #ccc;
+    margin: 0 auto;
 }
 
 #content1, #content2, #content3 {
