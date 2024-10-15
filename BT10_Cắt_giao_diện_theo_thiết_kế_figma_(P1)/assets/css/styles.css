@@ -11,7 +11,11 @@ body {
 }
 
 #main{
-    /* background-color: #ccc; */
+    /* padding: 10px 0; */
+}
+
+#content1, #content2, #content3 {
+    margin: 30px 0;
 }
 
 #header{
@@ -48,39 +52,116 @@ p:hover, #nav li:hover a {
     background-color: #ccc;
 }
 
-#content{
-
-}
-
-#content .subdiv1 {
-    /* position: relative; */
-    background-color: #fff;
-    height: 434px;
-    width: 940px;
-    float: right;
-}
-
-#content .subdiv1 .box {
+#content1 {
     position: relative;
+    margin-left: 40px;
+    height: 400px;
+    width: 960px;
+    background-color: #333;
+}
+
+#content1 #box1 {
+    position: absolute;
     height: 100px;
     width: 100px;
-    background-color: rgb(128, 198, 198);
+    background-color: aqua;
+    z-index: 1;
+    left: 460px;
     border-radius: 50px;
-    margin: 0 430px;
 }
 
-#content .subdiv .subcontent1 {
-    /* background-color: #d64949; */
+#content1 #subcontent1 {
     position: absolute;
+    height: 300px;
+    width: 370px;
+    background-color: #fff;
+    z-index: 2;
     top: 50px;
     left: 50px;
 }
 
-#content .subdiv1 img {
+#content1 img {
     position: absolute;
-    top: 124px;
+    top: 0;
     right: 0;
-    height: 380px;
-    width: 470px;
-    border-radius: 0 0 0 100px;
+    border-radius: 0 0 0 130px;
+    z-index: 2;
+}
+
+#content2 {
+    position: relative;
+    margin-left: 40px;
+    height: 400px;
+    width: 960px;
+    background-color: #333;
+}
+
+#content2 #box2 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    z-index: 1;
+    left: 460px;
+    border-radius: 50px;
+}
+
+#content2 #subcontent2 {
+    position: absolute;
+    height: 300px;
+    width: 370px;
+    background-color: #fff;
+    z-index: 2;
+    top: 50px;
+    left: 50px;
+}
+
+#content2 img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0 0 0 130px;
+    z-index: 2;
+}
+
+#content3 {
+    position: relative;
+    margin-left: 40px;
+    height: 400px;
+    width: 960px;
+    background-color: #333;
+}
+
+#content3 #box3 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    z-index: 1;
+    left: 460px;
+    border-radius: 50px;
+}
+
+#content3 #subcontent3 {
+    position: absolute;
+    height: 300px;
+    width: 370px;
+    background-color: #fff;
+    z-index: 2;
+    top: 50px;
+    left: 50px;
+}
+
+#content3 img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0 0 0 130px;
+    z-index: 2;
+}
+
+img {
+    
+    height: 350px;
+    width: 450px;
 }
